@@ -72,6 +72,7 @@
             // book_idLabel
             // 
             book_idLabel.AutoSize = true;
+            book_idLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
             book_idLabel.Location = new System.Drawing.Point(91, 68);
             book_idLabel.Name = "book_idLabel";
             book_idLabel.Size = new System.Drawing.Size(66, 20);
@@ -81,6 +82,7 @@
             // book_titleLabel
             // 
             book_titleLabel.AutoSize = true;
+            book_titleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
             book_titleLabel.Location = new System.Drawing.Point(91, 100);
             book_titleLabel.Name = "book_titleLabel";
             book_titleLabel.Size = new System.Drawing.Size(79, 20);
@@ -90,6 +92,7 @@
             // book_LanguageLabel
             // 
             book_LanguageLabel.AutoSize = true;
+            book_LanguageLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
             book_LanguageLabel.Location = new System.Drawing.Point(91, 132);
             book_LanguageLabel.Name = "book_LanguageLabel";
             book_LanguageLabel.Size = new System.Drawing.Size(126, 20);
@@ -99,6 +102,7 @@
             // publication_yearLabel
             // 
             publication_yearLabel.AutoSize = true;
+            publication_yearLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
             publication_yearLabel.Location = new System.Drawing.Point(91, 164);
             publication_yearLabel.Name = "publication_yearLabel";
             publication_yearLabel.Size = new System.Drawing.Size(124, 20);
@@ -108,11 +112,42 @@
             // authorLabel
             // 
             authorLabel.AutoSize = true;
+            authorLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
             authorLabel.Location = new System.Drawing.Point(91, 202);
             authorLabel.Name = "authorLabel";
             authorLabel.Size = new System.Drawing.Size(61, 20);
             authorLabel.TabIndex = 10;
             authorLabel.Text = "Author:";
+            // 
+            // purchase_dateLabel
+            // 
+            purchase_dateLabel.AutoSize = true;
+            purchase_dateLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
+            purchase_dateLabel.Location = new System.Drawing.Point(91, 233);
+            purchase_dateLabel.Name = "purchase_dateLabel";
+            purchase_dateLabel.Size = new System.Drawing.Size(116, 20);
+            purchase_dateLabel.TabIndex = 35;
+            purchase_dateLabel.Text = "Purchase date:";
+            // 
+            // book_priceLabel
+            // 
+            book_priceLabel.AutoSize = true;
+            book_priceLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
+            book_priceLabel.Location = new System.Drawing.Point(91, 266);
+            book_priceLabel.Name = "book_priceLabel";
+            book_priceLabel.Size = new System.Drawing.Size(88, 20);
+            book_priceLabel.TabIndex = 37;
+            book_priceLabel.Text = "Book price:";
+            // 
+            // book_quantityLabel
+            // 
+            book_quantityLabel.AutoSize = true;
+            book_quantityLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
+            book_quantityLabel.Location = new System.Drawing.Point(91, 298);
+            book_quantityLabel.Name = "book_quantityLabel";
+            book_quantityLabel.Size = new System.Drawing.Size(110, 20);
+            book_quantityLabel.TabIndex = 39;
+            book_quantityLabel.Text = "Book quantity:";
             // 
             // bookBindingSource
             // 
@@ -142,6 +177,9 @@
             // 
             // ad
             // 
+            this.ad.FlatAppearance.BorderSize = 0;
+            this.ad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
             this.ad.Location = new System.Drawing.Point(261, 374);
             this.ad.Name = "ad";
             this.ad.Size = new System.Drawing.Size(266, 33);
@@ -152,6 +190,7 @@
             // 
             // bq
             // 
+            this.bq.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
             this.bq.Location = new System.Drawing.Point(226, 292);
             this.bq.Name = "bq";
             this.bq.Size = new System.Drawing.Size(453, 26);
@@ -160,6 +199,7 @@
             // 
             // bpri
             // 
+            this.bpri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
             this.bpri.Location = new System.Drawing.Point(226, 260);
             this.bpri.Name = "bpri";
             this.bpri.Size = new System.Drawing.Size(453, 26);
@@ -168,6 +208,7 @@
             // 
             // au
             // 
+            this.au.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
             this.au.Location = new System.Drawing.Point(226, 196);
             this.au.Name = "au";
             this.au.Size = new System.Drawing.Size(453, 26);
@@ -176,6 +217,7 @@
             // 
             // bl
             // 
+            this.bl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
             this.bl.Location = new System.Drawing.Point(226, 129);
             this.bl.Name = "bl";
             this.bl.Size = new System.Drawing.Size(453, 26);
@@ -184,6 +226,7 @@
             // 
             // py
             // 
+            this.py.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
             this.py.Location = new System.Drawing.Point(226, 164);
             this.py.Name = "py";
             this.py.Size = new System.Drawing.Size(453, 26);
@@ -192,6 +235,7 @@
             // 
             // bt
             // 
+            this.bt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
             this.bt.Location = new System.Drawing.Point(226, 97);
             this.bt.Name = "bt";
             this.bt.Size = new System.Drawing.Size(453, 26);
@@ -200,6 +244,7 @@
             // 
             // bid
             // 
+            this.bid.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
             this.bid.Location = new System.Drawing.Point(226, 68);
             this.bid.Name = "bid";
             this.bid.Size = new System.Drawing.Size(453, 26);
@@ -228,33 +273,6 @@
             this.tableAdapterManager1.Log_inTableAdapter = null;
             this.tableAdapterManager1.UpdateOrder = Library_mgm.library_management_systemDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // purchase_dateLabel
-            // 
-            purchase_dateLabel.AutoSize = true;
-            purchase_dateLabel.Location = new System.Drawing.Point(91, 233);
-            purchase_dateLabel.Name = "purchase_dateLabel";
-            purchase_dateLabel.Size = new System.Drawing.Size(116, 20);
-            purchase_dateLabel.TabIndex = 35;
-            purchase_dateLabel.Text = "Purchase date:";
-            // 
-            // book_priceLabel
-            // 
-            book_priceLabel.AutoSize = true;
-            book_priceLabel.Location = new System.Drawing.Point(91, 266);
-            book_priceLabel.Name = "book_priceLabel";
-            book_priceLabel.Size = new System.Drawing.Size(88, 20);
-            book_priceLabel.TabIndex = 37;
-            book_priceLabel.Text = "Book price:";
-            // 
-            // book_quantityLabel
-            // 
-            book_quantityLabel.AutoSize = true;
-            book_quantityLabel.Location = new System.Drawing.Point(91, 298);
-            book_quantityLabel.Name = "book_quantityLabel";
-            book_quantityLabel.Size = new System.Drawing.Size(110, 20);
-            book_quantityLabel.TabIndex = 39;
-            book_quantityLabel.Text = "Book quantity:";
-            // 
             // pdaa
             // 
             this.pdaa.CustomFormat = "yyyy/MM/dd";
@@ -267,6 +285,7 @@
             // 
             // pda
             // 
+            this.pda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
             this.pda.Location = new System.Drawing.Point(226, 230);
             this.pda.Name = "pda";
             this.pda.Size = new System.Drawing.Size(453, 26);
@@ -277,6 +296,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(753, 525);
             this.Controls.Add(this.pdaa);
             this.Controls.Add(purchase_dateLabel);

@@ -96,10 +96,7 @@ namespace Library_mgm
 
         private void Admindash_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'library_management_systemDataSet2.Customer' table. You can move, or remove it, as needed.
-            this.customerTableAdapter.Fill(this.library_management_systemDataSet2.Customer);
-            // TODO: This line of code loads data into the 'library_management_systemDataSet.Student' table. You can move, or remove it, as needed.
-            this.studentTableAdapter.Fill(this.library_management_systemDataSet.Student);
+           
 
         }
     }

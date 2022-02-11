@@ -9,11 +9,11 @@ using System.Windows.Forms;
 
 namespace Library_mgm
 {
-    public partial class miduser : Form
+    public partial class Landing : Form
     {
         private int childFormNumber = 0;
 
-        public miduser()
+        public Landing()
         {
             InitializeComponent();
         }
@@ -143,6 +143,63 @@ namespace Library_mgm
    
         private void CustomToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void go_Click(object sender, EventArgs e)
+        {
+            dashborad addas = new dashborad();
+            addas.Show();
+            this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            dashborad addas = new dashborad();
+            addas.Show();
+            this.Hide();
+        }
+
+        private void toolStripStatusLabel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void addCustomerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddUser aus = new AddUser();
+            aus.Show();
+            
+        }
+
+        private void deleteCustomerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Delete_User d = new Delete_User();
+            d.Show();
+        }
+
+        private void updateCustomerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UpdateUser uu = new UpdateUser();
+            uu.Show();
+        }
+
+        private void viewCustomerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            View_customer vc = new View_customer();
+            vc.Show();
+        }
+
+        private void issueBooksToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Issuse_book ib = new Issuse_book();
+            ib.Show();
+        }
+
+        private void returnBooksToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Returnbook rb = new Returnbook();
+            rb.Show();
 
         }
 

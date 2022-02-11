@@ -47,6 +47,7 @@
             // book_idLabel
             // 
             book_idLabel.AutoSize = true;
+            book_idLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
             book_idLabel.Location = new System.Drawing.Point(97, 180);
             book_idLabel.Name = "book_idLabel";
             book_idLabel.Size = new System.Drawing.Size(66, 20);
@@ -56,6 +57,7 @@
             // book_titleLabel
             // 
             book_titleLabel.AutoSize = true;
+            book_titleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
             book_titleLabel.Location = new System.Drawing.Point(97, 212);
             book_titleLabel.Name = "book_titleLabel";
             book_titleLabel.Size = new System.Drawing.Size(79, 20);
@@ -90,6 +92,9 @@
             // 
             // delete
             // 
+            this.delete.FlatAppearance.BorderSize = 0;
+            this.delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.delete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
             this.delete.Location = new System.Drawing.Point(308, 286);
             this.delete.Name = "delete";
             this.delete.Size = new System.Drawing.Size(75, 33);
@@ -100,6 +105,8 @@
             // 
             // bt
             // 
+            this.bt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
+            this.bt.ForeColor = System.Drawing.Color.White;
             this.bt.Location = new System.Drawing.Point(227, 209);
             this.bt.Name = "bt";
             this.bt.Size = new System.Drawing.Size(453, 26);
@@ -107,6 +114,8 @@
             // 
             // bid
             // 
+            this.bid.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
+            this.bid.ForeColor = System.Drawing.Color.White;
             this.bid.Location = new System.Drawing.Point(227, 180);
             this.bid.Name = "bid";
             this.bid.Size = new System.Drawing.Size(453, 26);
@@ -116,6 +125,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(773, 614);
             this.Controls.Add(this.delete);
             this.Controls.Add(this.bt);

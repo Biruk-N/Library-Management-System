@@ -52,7 +52,7 @@ namespace Library_mgm
 
                 if (dr.HasRows)
                 {
-                   miduser go = new miduser();
+                   Landing go = new Landing();
                    go.Show();
                    this.Hide();
                 }

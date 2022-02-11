@@ -21,7 +21,16 @@ create table Book
 	insert into Book values(1224,'An Introdction to Database System','English',1995,'Addison Wesley','2022-01-19',50,15);
 
   drop table Category
+  
+  
+  create table Admininform
+  ( Full_name varchar(40) Not Null,
+	Account_number int,
+	
+  );
+  drop table Admininfo
 
+  
   drop table Borrower
   drop table Shelf
   drop table Book_binding
@@ -66,11 +75,13 @@ create table Category
 
 create table Customer
 (Customer_id int,
+ Customer_name varchar(50),
  Customer_role varchar(50),
  Customer_contact varchar(50),
  primary key(Customer_id),
 
 );
+drop table Customer
 create table Log_in
 (
  username varchar(50),
@@ -102,6 +113,9 @@ insert into Category values(06,'Fiction');
 select * from Book where Book_title = 'The Power Of Now';
 select * from Book 
 
+SELECT count(Book_id)
+FROM Book
+
 select count(Book_id) from Book
 
 --insert into staff values(921,'Tsehaye Mengestu','Librarian','mengestu1882');
@@ -117,3 +131,4 @@ insert into Borrower values(2312,1232,'2019-10-23','2019-10-30',null,'Tsehaye Me
 insert into Borrower values(2344,1223,'2019-12-03','2019-12-23','2019-12-23','Tsehaye Mengestu');
 insert into Borrower values(2313,1224,'2019-03-24','2019-04-12',null,'Oliad getaneh');
 insert into Borrower values(2341,1223,'2019-10-03','2019-10-23','2019-10-21','Tsehaye Mengestu');
+

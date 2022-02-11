@@ -18,7 +18,7 @@ namespace Library_mgm
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            Feedback feed = new Feedback();
+           Contactus feed = new Contactus();
             feed.Show();
             this.Hide();
         }

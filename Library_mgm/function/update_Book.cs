@@ -47,7 +47,7 @@ namespace Library_mgm
             string connstring = @"Data Source=DESKTOP-0LFNEKC\SQLEXPRESS;Initial Catalog=library_management_system;Integrated Security=True";
             SqlConnection conn = new SqlConnection(connstring);
             //string cmdstring = @"insert into Book values (@ua, @de, @uu, @pa, @uq, @dq, @us, @pw)";
-            string cmdstring = "update Book set Book_id='" + bid.Text + "','" + bl.Text + "','" + py.Text + "','" + au.Text + "','" + pda.Text + "','" + bpri.Text + "','" + bq.Text + "' where Book_title='" + bt.Text + "' ";
+            string cmdstring = "update Book set Book_id='" + bid.Text + "', Book_Language = '" + bl.Text + "', Publication_year = '" + py.Text + "',Author = '" + au.Text + "', Purchase_date = '" + pda.Text + "', Book_price = '" + bpri.Text + "', Book_quantity = '" + bq.Text + "' where Book_title='" + bt.Text + "' ";
             //
             //"insert into Book values('" + bid.Text + "','" + bt.Text + "','" + bl.Text + "','" + py.Text + "','" + au.Text + "','" + pda.Text + "','" + bpri.Text + "','" + bq.Text + "')";
             //
@@ -67,6 +67,9 @@ namespace Library_mgm
 
 
             }
+              
+
+             
             catch (SqlException ex)
             {
 

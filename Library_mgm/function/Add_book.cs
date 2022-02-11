@@ -54,7 +54,7 @@ namespace Library_mgm
             string connstring = @"Data Source=DESKTOP-0LFNEKC\SQLEXPRESS;Initial Catalog=library_management_system;Integrated Security=True";
             SqlConnection conn = new SqlConnection(connstring);
             //string cmdstring = @"insert into Book values (@ua, @de, @uu, @pa, @uq, @dq, @us, @pw)";
-            string cmdstring = "insert into Book values('" + bid.Text + "','" + bt.Text + "','" + bl.Text + "','" + py.Text + "','" + au.Text + "','"+ pda.Text +"','" + bpri.Text + "','"+bq.Text+"')";
+            string cmdstring = "insert into Book values('" + bid.Text + "','" + bt.Text + "','" + bl.Text + "','" + py.Text + "','" + au.Text + "','" + pda.Text + "','" + bpri.Text + "','" + bq.Text + "','" + bq.Text + "')";
             //
             SqlDataReader dr;
             try

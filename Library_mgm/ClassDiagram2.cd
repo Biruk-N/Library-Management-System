@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Library_mgm.AdmBook" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAACAAAAAAAACAgAACAAAAAAAAAAAEAgACAAA=</HashCode>
+      <FileName>AdmBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Admin" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIhQAACAAABAAIACAQAQCAAAAAAAgAAgAAYBAAAA=</HashCode>
+      <FileName>Admin\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Admindash" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAhAgADAgIBCQAAKCgAgCAAA4AAAAAEAICwRGwEA=</HashCode>
+      <FileName>Admin\Admindash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Login" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAAQAACAQABAAAACBAAACAAAIAAAAAEQAAZBQAAA=</HashCode>
+      <FileName>Admin\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Report" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACAAABAAAACAAAACAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Admin\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Book" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIhAAACAAAAAAAACAQAACAAAAAAAAQAAgAQBAAAA=</HashCode>
+      <FileName>Customer\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.CuLogin" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAABQAACAAABAAAACACAASAAAIAAgAEEAAAQBAAAA=</HashCode>
+      <FileName>Customer\CuLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.CuRegister" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAA0QAACAAAAAAAAKAAAACIAAAAAAgAAQICAQCQIA=</HashCode>
+      <FileName>Customer\CuRegister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Customer" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIhAAACAAABAAAACAQAACAAAAAAAAAAAAAQBAAAA=</HashCode>
+      <FileName>Customer\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.dashborad" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>VRAEgB4HACAAgBAAAACQEAACAAQYAAAASGCBAQRHgDM=</HashCode>
+      <FileName>dashborad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.file" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>file.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Add_book" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAAAQQADIIMACAAACAgAASIICAAAEAEACQIAQS0AQ=</HashCode>
+      <FileName>function\Add_book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.AddUser" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAkgASAEIAAAAACAgQgCAAoAAAAAAACICAQBQAA=</HashCode>
+      <FileName>function\AddUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Contactus" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIIAQAACAAABAAAACACAASAAAYAAAAEHAAAABAAAA=</HashCode>
+      <FileName>function\Contactus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Delete_User" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAkgACAEAAAAAAKAgQwCQAoAAAAAAAAAAAQAQAA=</HashCode>
+      <FileName>function\Delete_User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.deleteBook" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAIAAAIAACAAQACAACBBAAAEACAAAQAQAA=</HashCode>
+      <FileName>function\deleteBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Generate_report" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAAAACAABACAAwoAAAIAEAAAAAAQAA=</HashCode>
+      <FileName>function\Generate_report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Issuse_book" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBCAIAkACCEoJBBAABGwAEgCAAaJAAgCEECABQRBQQQ=</HashCode>
+      <FileName>function\Issuse_book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Landing" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIACCAsEBCQAlEGACCaUBA5KgCGBAEgAGBAAEwBIKBk=</HashCode>
+      <FileName>function\miduser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Register" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQkYCACAAABAAAACAAAACAAAQAAAAAGACAYBAAAA=</HashCode>
+      <FileName>function\Register.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Returnbook" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAAACEsJBBAAACgAAgCAIyAAAAAEACAAQQhQAA=</HashCode>
+      <FileName>function\Returnbook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.update_Book" Collapsed="true">
+    <Position X="9.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAAEQACAIEACAAACAAAACIAiBAAAAEACAAgQQQAQ=</HashCode>
+      <FileName>function\update_Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.UpdateUser" Collapsed="true">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAkgACAEAAAAABCAgQgKIAoAAAAAAAAAAAQAQAA=</HashCode>
+      <FileName>function\UpdateUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.View_book" Collapsed="true">
+    <Position X="14.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAACACAAIBAAgACAAAACAIygAQABAiCQAAQAQAA=</HashCode>
+      <FileName>function\View_book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.viewfeed" Collapsed="true">
+    <Position X="18" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAgAAAAAACAAAACAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>function\viewfeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Home" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAA4AAAAAHAAAAAAAAA=</HashCode>
+      <FileName>Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAgAQxIAACJABQAAQAABgDgSwhgEBIBAAEEADBE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet1" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAgAQxIIACJABQAAQAABgDgawhgEBIBAEEEADBE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet2" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAIAgAQxIIACJABQAAQAABoDgawhkEBIBAEEEADBE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet3" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAwAIAAJABQAAQAABgAgKQBgAAAAAEAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet4" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAAwAIAAJABQAAYAABoAgKSBkAAAAAEAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet5" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAACAABwAIAAJABQAAQAABoAgKQBkEAAAAEAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet6" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAACAABwAIAAJABQAAQAABoAgKQBkEAAAAEAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet7" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAACAABwAIAAJABQAEQBABoAgKQBkEAAAAMAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet8" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAACAABwAIAAJABQAEQBABoAgKQBkEAAAAMAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.LibraryMgtEntities" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAIAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.user" Collapsed="true">
+    <Position X="12.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADIAAAAAAAAAAAAABAAAAABAAEQAAAAAAAAAAQAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.LibraryMgtSysDataSet" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.LibraryMgtSysDataSet1" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAACJABAAAQAAAAAgCQBgAAAAAAAEAFBQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Program" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.View_customer" Collapsed="true">
+    <Position X="16.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAAIBBAAACAAAACAAyAAAAAAiCQAAQAQAA=</HashCode>
+      <FileName>View_customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSetTableAdapters.BookTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSetTableAdapters.Book_bindingTableAdapter" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSetTableAdapters.BorrowerTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSetTableAdapters.CategoryTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSetTableAdapters.ShelfTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSetTableAdapters.StaffTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSetTableAdapters.StudentTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAQCAEAAFAJAkBgACAMAAgEFIKgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet1TableAdapters.BookTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet1TableAdapters.Book_bindingTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet1TableAdapters.BorrowerTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet1TableAdapters.CategoryTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet1TableAdapters.Culog_inTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet1TableAdapters.Log_inTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet1TableAdapters.ShelfTableAdapter" Collapsed="true">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet1TableAdapters.StaffTableAdapter" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet1TableAdapters.StudentTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet1TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="18" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAQCAEAAFAJAkBgACAMAAgEFIKgAABAiQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet2TableAdapters.BookTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet2TableAdapters.Book_bindingTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet2TableAdapters.BorrowerTableAdapter" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet2TableAdapters.CategoryTableAdapter" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet2TableAdapters.Culog_inTableAdapter" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet2TableAdapters.CustomerTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet2TableAdapters.Log_inTableAdapter" Collapsed="true">
+    <Position X="18" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet2TableAdapters.ShelfTableAdapter" Collapsed="true">
+    <Position X="18" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet2TableAdapters.StaffTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet2TableAdapters.StudentTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet2TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAQCAEAAFAJAkBgACAMAAgEFIKgACBAiQAAAAADAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet3TableAdapters.BookTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet3TableAdapters.Culog_inTableAdapter" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet3TableAdapters.Log_inTableAdapter" Collapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet3TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAEAAFABAEBAACAMAAgAAACgAABAiQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet4TableAdapters.AdmininfoTableAdapter" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet4TableAdapters.BookTableAdapter" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet4TableAdapters.Culog_inTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet4TableAdapters.CustomerTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet4TableAdapters.Log_inTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet4TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAEAAFABAEBAACAMQAgAAACgACBAiQAAgAADAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet5TableAdapters.AdmininformTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet5TableAdapters.BookTableAdapter" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet5TableAdapters.Culog_inTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet5TableAdapters.CustomerTableAdapter" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet5TableAdapters.Log_inTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet5TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAEAAFABAEBAECAMAAgAAACgACBAiQAAAAADAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet6TableAdapters.AdmininformTableAdapter" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet6TableAdapters.BookTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet6TableAdapters.Culog_inTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet6TableAdapters.CustomerTableAdapter" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet6TableAdapters.Log_inTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet6TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAEAAFABAEBAECAMAAgAAACgACBAiQAAAAADAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet7TableAdapters.AdmininformTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet7TableAdapters.BookTableAdapter" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet7TableAdapters.Culog_inTableAdapter" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet7TableAdapters.CustomerTableAdapter" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet7TableAdapters.Issue_bookTableAdapter" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet7TableAdapters.Log_inTableAdapter" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet7TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAEAAFABAEBAEiAMAAgAAACgACBAiQAAAAADAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet8TableAdapters.AdmininformTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet8TableAdapters.BookTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet8TableAdapters.Culog_inTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet8TableAdapters.CustomerTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet8TableAdapters.Issue_bookTableAdapter" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet8TableAdapters.Log_inTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.library_management_systemDataSet8TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAEAAFABAEBAEiAMAAgAAACgACBAiQAAAAADAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.LibraryMgtSysDataSet1TableAdapters.loginTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.LibraryMgtSysDataSet1TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="16.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAAJABAEBAAAAMAAoAAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Properties.Resources" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAABAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_mgm.Properties.Settings" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAABAABQAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Library_mgm.Role" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Role.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

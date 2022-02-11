@@ -11,7 +11,8 @@
     <RootNamespace>Library_mgm</RootNamespace>
     <AssemblyName>Library_mgm</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -50,12 +51,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="function\Contactus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\Contactus.Designer.cs">
+      <DependentUpon>Contactus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer\CuRegister.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Customer\CuRegister.Designer.cs">
       <DependentUpon>CuRegister.cs</DependentUpon>
     </Compile>
+    <Compile Include="file.cs" />
     <Compile Include="function\deleteBook.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,10 +82,10 @@
     <Compile Include="AdmBook.Designer.cs">
       <DependentUpon>AdmBook.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\AddUser.cs">
+    <Compile Include="function\AddUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\AddUser.Designer.cs">
+    <Compile Include="function\AddUser.Designer.cs">
       <DependentUpon>AddUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Admin\Admin.cs">
@@ -110,17 +118,17 @@
     <Compile Include="Customer\Customer.Designer.cs">
       <DependentUpon>Customer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer\Feedback.cs">
+    <Compile Include="function\Delete_User.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer\Feedback.Designer.cs">
-      <DependentUpon>Feedback.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\Delete_User.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Admin\Delete_User.Designer.cs">
+    <Compile Include="function\Delete_User.Designer.cs">
       <DependentUpon>Delete_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\Generate_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\Generate_report.Designer.cs">
+      <DependentUpon>Generate_report.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -128,10 +136,10 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Issuse_book.cs">
+    <Compile Include="function\Issuse_book.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\Issuse_book.Designer.cs">
+    <Compile Include="function\Issuse_book.Designer.cs">
       <DependentUpon>Issuse_book.cs</DependentUpon>
     </Compile>
     <Compile Include="LibraryMgtModel.Designer.cs">
@@ -160,12 +168,6 @@
     <Compile Include="Admin\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="function\Payment.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="function\Payment.Designer.cs">
-      <DependentUpon>Payment.cs</DependentUpon>
-    </Compile>
     <Compile Include="function\miduser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,6 +189,31 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>library_management_systemDataSet3.xsd</DependentUpon>
     </Compile>
+    <Compile Include="library_management_systemDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>library_management_systemDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="library_management_systemDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>library_management_systemDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="library_management_systemDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>library_management_systemDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="library_management_systemDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>library_management_systemDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="library_management_systemDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>library_management_systemDataSet8.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="function\Register.cs">
@@ -201,10 +228,10 @@
     <Compile Include="Admin\Report.Designer.cs">
       <DependentUpon>Report.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\UpdateUser.cs">
+    <Compile Include="function\UpdateUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\UpdateUser.Designer.cs">
+    <Compile Include="function\UpdateUser.Designer.cs">
       <DependentUpon>UpdateUser.cs</DependentUpon>
     </Compile>
     <Compile Include="function\View_book.cs">
@@ -219,10 +246,35 @@
     <Compile Include="function\update_Book.Designer.cs">
       <DependentUpon>update_Book.cs</DependentUpon>
     </Compile>
+    <Compile Include="dashborad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashborad.Designer.cs">
+      <DependentUpon>dashborad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function\Returnbook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\Returnbook.Designer.cs">
+      <DependentUpon>Returnbook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Role.cs" />
+    <Compile Include="function\viewfeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function\viewfeed.Designer.cs">
+      <DependentUpon>viewfeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_customer.Designer.cs">
+      <DependentUpon>View_customer.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdmBook.resx">
       <DependentUpon>AdmBook.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\AddUser.resx">
+    <EmbeddedResource Include="function\AddUser.resx">
       <DependentUpon>AddUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Admin.resx">
@@ -231,7 +283,16 @@
     <EmbeddedResource Include="Admin\Admindash.resx">
       <DependentUpon>Admindash.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\UpdateUser.resx">
+    <EmbeddedResource Include="function\Contactus.resx">
+      <DependentUpon>Contactus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\Generate_report.resx">
+      <DependentUpon>Generate_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\Returnbook.resx">
+      <DependentUpon>Returnbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\UpdateUser.resx">
       <DependentUpon>UpdateUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\CuRegister.resx">
@@ -246,10 +307,7 @@
     <EmbeddedResource Include="Customer\Customer.resx">
       <DependentUpon>Customer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer\Feedback.resx">
-      <DependentUpon>Feedback.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Delete_User.resx">
+    <EmbeddedResource Include="function\Delete_User.resx">
       <DependentUpon>Delete_User.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="function\deleteBook.resx">
@@ -267,14 +325,11 @@
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Issuse_book.resx">
+    <EmbeddedResource Include="function\Issuse_book.resx">
       <DependentUpon>Issuse_book.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="function\Payment.resx">
-      <DependentUpon>Payment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="function\miduser.resx">
       <DependentUpon>miduser.cs</DependentUpon>
@@ -295,12 +350,23 @@
     <EmbeddedResource Include="Admin\Report.resx">
       <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dashborad.resx">
+      <DependentUpon>dashborad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function\viewfeed.resx">
+      <DependentUpon>viewfeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="View_customer.resx">
+      <DependentUpon>View_customer.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="App.Config" />
     <None Include="ClassDiagram1.cd" />
     <EntityDeploy Include="LibraryMgtModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>LibraryMgtModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="ClassDiagram2.cd" />
     <None Include="LibraryMgtSysDataSet.xsc">
       <DependentUpon>LibraryMgtSysDataSet.xsd</DependentUpon>
     </None>
@@ -366,6 +432,61 @@
     </None>
     <None Include="library_management_systemDataSet3.xss">
       <DependentUpon>library_management_systemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="library_management_systemDataSet4.xsc">
+      <DependentUpon>library_management_systemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="library_management_systemDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>library_management_systemDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="library_management_systemDataSet4.xss">
+      <DependentUpon>library_management_systemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="library_management_systemDataSet5.xsc">
+      <DependentUpon>library_management_systemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="library_management_systemDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>library_management_systemDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="library_management_systemDataSet5.xss">
+      <DependentUpon>library_management_systemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="library_management_systemDataSet6.xsc">
+      <DependentUpon>library_management_systemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="library_management_systemDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>library_management_systemDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="library_management_systemDataSet6.xss">
+      <DependentUpon>library_management_systemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="library_management_systemDataSet7.xsc">
+      <DependentUpon>library_management_systemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="library_management_systemDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>library_management_systemDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="library_management_systemDataSet7.xss">
+      <DependentUpon>library_management_systemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="library_management_systemDataSet8.xsc">
+      <DependentUpon>library_management_systemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="library_management_systemDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>library_management_systemDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="library_management_systemDataSet8.xss">
+      <DependentUpon>library_management_systemDataSet8.xsd</DependentUpon>
     </None>
     <None Include="Properties\DataSources\LibraryMgtEntities.datasource" />
     <None Include="Properties\Settings.settings">

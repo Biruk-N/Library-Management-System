@@ -15,7 +15,7 @@ namespace Library_mgm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new miduser());
+            Application.Run(new Login());
         }
     }
 }
