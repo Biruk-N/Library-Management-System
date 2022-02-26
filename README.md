@@ -1,6 +1,6 @@
 # Library-Management-System
 ## Login
-![](./imagw.png) 
+![](./image.png) 
 
 ## Use-case diagram
 ## Sequence diagram
