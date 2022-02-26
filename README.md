@@ -4,7 +4,7 @@
 ## Landing page
 ![](img/image.png) 
 ## Dashboard
-![](img/dash.png) 
+![](img/dash.jpg) 
 ## Use-case diagram
 ## Sequence diagram
 ## Our system functionality
