@@ -1,7 +1,8 @@
 # Library-Management-System
 ## Login
 ![](./image.png) 
-
+## Landing page
+![](img/image.png) 
 ## Use-case diagram
 ## Sequence diagram
 ## Our system functionality
