@@ -3,6 +3,8 @@
 ![](./image.png) 
 ## Landing page
 ![](img/image.png) 
+## Dashboard
+![](img/dash.png) 
 ## Use-case diagram
 ## Sequence diagram
 ## Our system functionality
